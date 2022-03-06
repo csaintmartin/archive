@@ -1,0 +1,1 @@
+# Power expectation as a Figure Of Merit (FoM)

@@ -3,7 +3,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: "ARCHIVE: reseARCH In Vibration Energy" # The title of the book. Will be placed in the left navbar.
-author: Camille Saint-martin # The author of the book
+author: Camille Saint-Martin # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
 logo: logo.png
 # # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")

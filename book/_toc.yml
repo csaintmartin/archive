@@ -1,8 +1,25 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
-format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
+format: jb-book #Defines the structure of this Table of Contents (e.g., how to interpret the key names).
+root: intro #The first page of your book
+options: # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+parts: 
+  - caption: Power expectation
+    numbered: True
+    chapters: #A list of entries
+      - file: power_expectation/power_expectation.md #A path to a file that contains the content for a chapter / section and these are relative to the root document
+  - caption : Orbit jump
+    numbered: True
+    chapters:
+      - file: orbit_jump/orbit_jump.md
+  - caption: Application of Machine Learning to energy harvesting
+    numbered: True
+    chapters:
+      - file: ml_energy_harvesting/ml_energy_harvesting.md
+  - caption: Robustness
+    numbered: True 
+    chapters:
+      - file: robustness/robustness.md
+
