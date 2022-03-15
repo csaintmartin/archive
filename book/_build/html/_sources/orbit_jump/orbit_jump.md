@@ -1,1 +1,0 @@
-# Testing of several orbit jump strategies with an electrical command function
